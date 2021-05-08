@@ -1,0 +1,331 @@
+html {
+    color: #222;
+    font-size: 13px;
+    line-height: 1.4;
+}
+.main-header {
+    background: #333;
+    height: 50px;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.container {
+    margin: 0 auto;
+    overflow: hidden;
+    width: 80%;
+}
+
+.branding {
+    float: left;
+    width: 50%;
+}
+
+.branding img {
+    height: auto;
+    position: absolute;
+    width: 60px;
+}
+
+.branding-heading {
+    color: #fff;
+    margin: 0 !important;
+    padding: 5px 0 0 70px;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+
+ul {
+    margin: 0;
+    padding: 0;
+    float:right;
+}
+
+.main-nav {
+    float: right;
+    padding-top: 12px;
+    width: 50%;
+}
+
+
+.main-nav li {
+    color: #fff;
+    float: left;
+    font-size: 15px;
+    font-weight: bold;
+    list-style-type: square;
+    margin: 0 15px;
+    padding: 3px 5px 0;
+    text-transform: uppercase;
+}
+.main-nav a {
+    color: #fff;
+}
+
+.main-nav ul {
+    float: right;
+}
+.content {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    float: left;
+    padding: 0 20px 20px;
+    width: 63%;
+}
+
+.sidebar {
+    float: right;
+    width: 30%;
+}
+
+.search {
+    float: right;
+}
+
+.search input[type="search"] {
+    border: #ccc 1px solid;
+    border-radius: 5px;
+    float: left;
+    height: 28px;
+    padding: 3px;
+    width: 88%;
+}
+
+.search input[type="image"] {
+    float: right;
+    width: 10%;
+}
+.sub-nav {
+    padding: 20px 0;
+}
+
+.sub-nav li {
+    border-bottom: 1px dotted #333;
+    font-size: 16px;
+    font-weight: bold;
+    list-style-type: none;
+    padding: 5px 0;
+}
+
+.sub-nav a {
+    color: #333;
+}
+
+.sub-nav a:hover,
+.sub-nav a:active {
+    color: #f00;
+}
+
+
+
+.ad img {
+    margin-bottom: 20px;
+    width: 30%;
+    float: right;
+    position: absolute;
+    left: 1000px;
+    top: 350px;
+}
+
+h2 {
+    font-size: 25px;
+}
+
+article {
+    border-bottom: 1px dotted #ccc;
+    padding: 10px 0 20px;
+
+}
+
+.article-heading {
+    margin: 0;
+    padding-top: 10px;
+}
+
+.article-meta {
+    background: #333;
+    color: #fff;
+    margin: 10px 0;
+    padding: 5px;
+}
+
+.article-meta span {
+    float: right;
+}
+
+
+article img {
+    width: 100%;
+}
+
+.main-footer {
+    background: #333;
+    color: #fff;
+    margin-top: 20px;
+    min-height: 180px;
+    overflow: auto;
+}
+
+.main-footer a {
+    color: #fff;
+}
+
+.footer-right {
+    float: right;
+    width: 70%;
+}
+
+.footer-nav {
+    float: left;
+    font-size: 15px;
+    margin-right: 10px;
+    padding: 20px 0;
+    width: 31%;
+}
+
+.footer-nav li {
+    border-bottom: 1px dotted #666;
+    padding: 15px 5px 8px 10px;
+    font: bold;
+    font-size: 15px;
+
+    
+}
+
+.footer-left {
+    float: left;
+    width: 30%;
+    
+}
+
+.copy {
+    padding: 20px 0 0;
+}
+
+
+.comments {
+    margin-top: 20px;
+}
+
+.comment-left {
+    float: left;
+    width: 8%;
+}
+
+.comment-left img {
+    width: 100%;
+}
+
+.comment-right {
+    float: right;
+    width: 90%;
+}
+
+.comment-form {
+    background: #333;
+    border-radius: 10px;
+    color: #fff;
+    margin-top: 20px;
+    padding: 5px 20px 10px;
+
+}
+
+.comment-form input[type="text"],
+.comment-form input[type="email"] {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    height: 20px;
+    padding: 3px;
+    width: 97%;
+}
+
+.comment-form textarea {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 3px;
+    width: 97%;
+}
+
+.comment-form button {
+    color: #333;
+}
+
+button {
+    line-height: 1.5;
+}
+
+.add-form input[type="text"] {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    height: 20px;
+    padding: 3px;
+    width: 97%;
+}
+
+.add-form select {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    height: 30px;
+    padding: 3px;
+    width: 98%;
+}
+
+.add-form textarea {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    height: 80px;
+    padding: 3px;
+    width: 97%;
+}
+
+.add-form input[type="file"] {
+    line-height: 1;
+}
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
